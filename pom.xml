@@ -30,12 +30,6 @@
         </repository>
   </repositories>
   
-
-  <properties>
-    <maven.compiler.source>7</maven.compiler.source>
-    <maven.compiler.target>7</maven.compiler.target>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -63,6 +57,7 @@
         <name>Release Repository for Component1</name>
         <url>s3://mvn-repo-pillclub/release</url>
         </repository>
+    
         <snapshotRepository>
         <id>mvn-repo-pillclub-snapshot-repo</id>
         <name>Snapshot Repository for Component1</name>
