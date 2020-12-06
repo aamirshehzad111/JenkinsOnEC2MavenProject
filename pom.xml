@@ -8,7 +8,7 @@
   
   <repositories>
         <repository>
-        <id>mvn-repo-pillclub-release</id>
+        <id>mvn-repo-pillclub</id>
         <name>S3 Release Repository for component1</name>
         <url>s3://mvn-repo-pillclub/release</url>
         <releases>
@@ -19,7 +19,7 @@
         </snapshots>
         </repository>
         <repository>
-        <id>mvn-repo-pillclub-snapshot</id>
+        <id>mvn-repo-pillclub</id>
         <name>mvn-repo-pillclub-snapshot-repo</name>
         <url>s3://mvn-repo-pillclub/snapshot</url>
         <releases>
@@ -54,13 +54,13 @@
    
   <distributionManagement>
         <repository>
-        <id>mvn-repo-pillclub-release</id>
+        <id>mvn-repo-pillclub</id>
         <name>Release Repository for Component1</name>
         <url>s3://mvn-repo-pillclub/release</url>
         </repository>
     
         <snapshotRepository>
-        <id>mvn-repo-pillclub-snapshot</id>
+        <id>mvn-repo-pillclub</id>
         <name>Snapshot Repository for Component1</name>
         <url>s3://mvn-repo-pillclub/snapshot</url>
         </snapshotRepository>
