@@ -1,0 +1,8 @@
+<servers>
+  <server>
+    <id>mvn-repo-pillclub-release</id>
+  </server>
+  <server>
+    <id>mvn-repo-pillclub-snapshot</id>
+  </server>
+</servers>
