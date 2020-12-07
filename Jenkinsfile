@@ -3,7 +3,7 @@ pipeline {
   stages {
       stage('Maven') {
         steps {
-            sh "mvn clean install"
+            sh "mvn --settings settings.xml clean deploy -e"
         }
       }
   }
